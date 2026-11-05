@@ -1,0 +1,7 @@
+langchain>=1.0
+langchain-anthropic>=1.0        # default provider (Claude Haiku 5.5)
+langchain-openai>=1.0           # optional: LLM_PROVIDER=openai
+# langchain-google-genai        # optional: LLM_PROVIDER=google_genai
+python-dotenv>=1.0              # loads the .env file
+pydantic>=2
+pytest>=8
