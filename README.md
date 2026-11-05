@@ -24,8 +24,8 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # 3. add your API key
-update .env              
-#    open .env and replace  your-anthropic-api-key-here and openai key with your real key
+# update .env --> open .env and replace  your-anthropic-api-key-here and openai key with your real key             
+
 
 # 4. play
 python -m blackjack.main
